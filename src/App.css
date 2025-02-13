@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.row, 
+[class*="col-"] {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#headnav{
+ 
+  width:100%;
+  background-color: black;
+}
+#nav{
+  width:100%;
+  background-color: rgba(0, 0, 0, 0.93);
+
+}
+#banner1 {
+  background: url(./assets/hero-banner.jpg);
+  width: 100%;
+  background-size: cover;
+
+}
+#banner2{
+  height: auto;
+  background:  rgba(0, 0, 0, 0.93);
+}
+#profile{
+  height: 120px;
+  width:500px;
+  background-color: brown;
+  position: relative;
+  top:10px;
+  float :right;
+  
+  
+
+}
